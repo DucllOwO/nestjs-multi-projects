@@ -15,7 +15,7 @@ services:
     # Remember to replace these with your own strong passwords!
     environment:
       MYSQL_ROOT_PASSWORD: your_super_secure_root_password
-      MYSQL_DATABASE: mydatabase # Feel free to change this database name
+      MYSQL_DATABASE: nestjs-example # Feel free to change this database name
       MYSQL_USER: replication_user # This user will handle replication
       MYSQL_PASSWORD: your_super_secure_replication_password
     # Map the container port (3306) to your host machine's port (also 3306)
